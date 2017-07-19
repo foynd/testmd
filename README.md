@@ -18,6 +18,6 @@ int main()
 #Table1
 Col1Head | Col2Head
 ---------|-----------
-a1 | b1
-a2 | b2
+a1       | b1
+a2       | b2
 
