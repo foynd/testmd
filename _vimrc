@@ -5,6 +5,7 @@ behave mswin
 colorscheme badwolf " color schemes
 syntax enable " enable syntax processing
 set number " adds line numbers
+set relativenumber " adds relative line numbers
 highlight LineNr ctermfg=darkgray " line numbers 
 set tabstop=4 " number of spaces in a tab
 set softtabstop=4 "number of spaces in a tab when editing
@@ -21,6 +22,8 @@ nnoremap E $ " E will jump you to the end of the line
 let mapleader="," " sets comma instead of backslash for key sequences
 inoremap jk <esc> " remaps jk (unused keys unless you're typing "Dijkstra") to escape
 set mouse=a " should allow usage of the mouse
+set nobackup " gets rid of ~ files
+set nowritebackup " gets rid of ~ files
 
 
 
